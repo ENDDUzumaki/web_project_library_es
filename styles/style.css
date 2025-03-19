@@ -311,10 +311,10 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Agrega estilos */
+  flex-wrap: wrap;
+  gap: 40px;
   display: flex;
   justify-content: center;
-;
 }
 
 .step {
@@ -384,13 +384,18 @@ width: 58px;
 margin-bottom: 0%;}
 
 .footer__column-link {
+  display: flex;
   color: white;
   text-decoration: none;
+  column-gap: 10px;
+  align-items: center;
 }
+
 
 .footer__social-icon {
   height: 16px;
   width: 16px;
+
 }
 
 .footer__copyright {
